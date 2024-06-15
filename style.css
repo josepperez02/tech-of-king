@@ -428,6 +428,67 @@ header{
     margin: 8px 0 0 10px;
 }
 
+.Servicios{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/bg-info.jpg);
+    background-position: center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 80vh;
+    
+}
+
+.servis-content{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+    gap: 40px;
+
+}
+
+.serv img{
+    justify-items: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 5px 5px 22px;
+    align-self: center;
+}
+
+
+
+.tit{
+    display: flex;
+    justify-content: center;
+    position:relative;
+    color: #fdfdfd;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+.tit h1{
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    color: #fdfdfd;
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+.cuer{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    position:relative;
+    font-size: 20px;
+    color: #a0a0a0;
+    margin-bottom: 25px;
+}
+
+
+
 @media(max-width: 991px){
     .menu{
         padding: 20px;
